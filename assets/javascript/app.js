@@ -3,7 +3,7 @@ $(document).ready(function(){
 // ----------------------------------------------------------------
  // declaring the value for the timer to 60 seconds
  // hide the start button and rules
-    var number = 10;
+    var number = 20;
     $("#start-button").on("click", start);  // starts the games 
     $("#submit").on("click", finish);  // submits answers and finishes the game
 // ----------------------------------------------------------------
@@ -27,7 +27,6 @@ $(document).ready(function(){
         clearInterval(counter); // stops the timer
         $("#results").show();
         $("#restart").show();
-        $("#submit").hide();
     }
     function finish(){
         number = 1; // if number is equal to 0 number will show -1 so 1 has to be selected
@@ -36,7 +35,7 @@ $(document).ready(function(){
     }
 
     function restart(){
-        number = 10;
+        number = 20;
         start();
     }
 
