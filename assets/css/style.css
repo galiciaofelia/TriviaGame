@@ -1,0 +1,84 @@
+body {
+  background: #aad9ec;
+  background-image: url("assets/images/question-mark-pattern.png");
+  font-family: Arial," sans-serif";
+  box-sizing: border-box;
+  width:960px;
+  margin: 0 auto;
+}
+
+p.question {
+  font-family: Arial, sans-serif;
+	font-size:20px;
+  color: #2E2E2E;
+  margin-bottom:0px;
+}
+
+h2.score{
+  font-size:25px;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  margin-top: 10px;
+}
+
+div.answers{
+  font-family: Arial, sans-serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+}
+
+label {
+  font-family: Arial, sans-serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+input.submitButton[type="submit"] {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 18px; 
+  background-color: #de4747;
+  margin-bottom: 20px;
+  border: 0;
+  outline: 0;
+  height:35px;
+  width:100px;
+  border-radius: 5px;
+ }
+
+input.submitButton[type="submit"]:hover {
+  color: #ffffff;
+  background: #792929;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#box {
+  width:583px;
+  background-color: #abd6e8;
+	border:1px solid #BDBDBD;
+  border-radius:5px;
+  padding:10px;
+  padding-left:25px;
+  box-shadow: rgba(0, 0, 0, 0.498039) 0px 0px 1px 0px;
+}
+
+
+.submitter {
+	  width:85px;
+}
+
+.hide {
+	  display:none;
+}
+
+
